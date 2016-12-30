@@ -27,7 +27,7 @@ function getRequest(searchTerm) {
     s: searchTerm,
     r: 'json'
   };
-  url = 'http://www.omdbapi.com';
+  url = 'https://www.omdbapi.com';
 
   // $.getJSON('http://www.omdbapi.com/?s=' + searchTerm + '&r=json', function(data){
   $.getJSON(url, params, function(data){
